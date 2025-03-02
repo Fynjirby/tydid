@@ -1,16 +1,17 @@
-const tydid = require("tydid"); // Import the tydid module
+// const { tydid } = require("tydid"); // Import the tydid module
+const { tydid } = require("../index.js"); // Import the tydid module
 
 // Add a new todo and log it
 const newTodo = tydid.addTodo("Complete the documentation");
-console.log("Created new todo:", newTodo);
+console.log("Created new task:", newTodo);
 
 // Add a priority todo
 const priorityTodo = tydid.addTodo("Fix critical bug", true);
-console.log("Created priority todo:", priorityTodo);
+console.log("Created task with priority:", priorityTodo);
 
 // Mark a todo as complete
 tydid.completeTodo(newTodo.id);
-console.log("Marked todo as complete");
+console.log("Marked task as complete");
 
 // List all todos
 const allTodos = tydid.getTodos();
