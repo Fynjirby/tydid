@@ -1,0 +1,32 @@
+{
+  "name": "tydid",
+  "version": "1.0.0",
+  "description": "Fast TODO app right in your terminal",
+  "main": "index.js",
+  "bin": {
+    "tydid": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "./bin/cli.js"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "nanoid": "^3.3.4"
+  },
+  "keywords": [
+    "todo",
+    "cli",
+    "tui",
+    "terminal"
+  ],
+  "author": "Fynjirby",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fynjirby/tydid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fynjirby/tydid/issues"
+  },
+  "homepage": "https://github.com/fynjirby/tydid#readme"
+}
