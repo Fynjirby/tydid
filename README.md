@@ -8,7 +8,7 @@ Ultra Fast Terminal-based TODO application with a function of Vim-like navigatio
 ### Feel free to fork & contribute!
 
 <p align="center">
-  <img src="img/tydid.png" alt="TyDID Screenshot" width="750px">
+  <img src="https://github.com/Fynjirby/tydid/blob/main/img/tydid.png" alt="TyDID Screenshot" width="750px">
 </p>
 
 ## Features
