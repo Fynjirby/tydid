@@ -1,6 +1,6 @@
 {
   "name": "tydid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fast TODO app right in your terminal",
   "main": "index.js",
   "bin": {
