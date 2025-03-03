@@ -7,6 +7,10 @@ Ultra Fast Terminal-based TODO application with a function of Vim-like navigatio
 
 ### Feel free to fork & contribute!
 
+<p align="center">
+  <img src="img/tydid.png" alt="TyDID Screenshot" width="750px">
+</p>
+
 ## Features
 
 - 📝 Create, edit, and manage tasks directly from your terminal
