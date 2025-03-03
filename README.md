@@ -4,6 +4,8 @@
 
 Ultra Fast Terminal-based TODO application with a function of Vim-like navigation.
 
+### Feel free to fork & contribute!
+
 ## Features
 
 - 📝 Create, edit, and manage tasks directly from your terminal
@@ -29,6 +31,7 @@ tydid
 ## Programmatic Usage
 
 You can also use TyDID as a library in your Node.js projects:
+// you need to install it via `npm i tydid` first
 
 ```javascript
 const tydid = require('tydid');
@@ -42,7 +45,7 @@ tydid.completeTask(task.id);
 const allTasks = tydid.getTasks();
 ```
 
-There is an examples of usage in the `examples` directory.
+There is an example of usage in the `examples` directory.
 
 ## Configuration
 

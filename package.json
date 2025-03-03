@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "blessed": "^0.1.81",
-    "nanoid": "^3.3.4"
+    "nanoid": "^3.3.4",
+    "tydid": "^1.0.1"
   },
   "keywords": [
     "todo",
