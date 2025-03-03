@@ -1,6 +1,7 @@
 # TyDID
 
 [![npm version](https://img.shields.io/npm/v/tydid.svg)](https://www.npmjs.com/package/tydid)
+[![GitHub stars](https://img.shields.io/github/stars/fynjirby/tydid.svg?style=social&label=Star)](https://github.com/fynjirby/tydid)
 
 Ultra Fast Terminal-based TODO application with a function of Vim-like navigation.
 
