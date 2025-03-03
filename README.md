@@ -37,13 +37,13 @@ const tydid = require('tydid');
 tydid.startApp();
 
 // Or use the API directly
-const todo = tydid.addTodo('Learn Node.js');
-tydid.completeTodo(todo.id);
-const allTodos = tydid.getTodos();
+const task = tydid.addTask('Learn Node.js');
+tydid.completeTask(task.id);
+const allTasks = tydid.getTasks();
 ```
 
 There is an examples of usage in the `examples` directory.
 
 ## Configuration
 
-TyDID stores your tasks in `~/.tydid/todos.json` and settings in `~/.tydid/settings.json`.
+TyDID stores your tasks in `~/.tydid/tasks.json` and settings in `~/.tydid/settings.json`.

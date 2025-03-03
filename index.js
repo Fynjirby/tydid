@@ -1,11 +1,11 @@
 const app = require("./lib/app");
-const todoStorage = require("./lib/storage");
+const taskStorage = require("./lib/storage");
 
 const tydid = {
-  addTodo: todoStorage.addTodo.bind(todoStorage),
-  completeTodo: todoStorage.completeTodo.bind(todoStorage),
-  deleteTodo: todoStorage.deleteTodo.bind(todoStorage),
-  getTodos: todoStorage.getTodos.bind(todoStorage),
+  addTask: taskStorage.addTask.bind(taskStorage),
+  completeTask: taskStorage.completeTask.bind(taskStorage),
+  deleteTask: taskStorage.deleteTask.bind(taskStorage),
+  getTasks: taskStorage.getTasks.bind(taskStorage),
 };
 
 module.exports = {
